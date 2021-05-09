@@ -1,16 +1,14 @@
 ---
 title: "I've Set Up My Blog Yet Again"
 date: 2021-05-08T22:36:03-04:00
+draft: false
 tags: ["meta"]
-author: "Me"
-# author: ["Me", "You"] # multiple authors
+author: "Amin Shah Gilani"
 showToc: true
 TocOpen: false
-draft: false
 hidemeta: false
 comments: false
 description: "For the umpteenth time in my life, I've set up my blog."
-canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false # to disable highlightjs
 disableShare: false
 hideSummary: true
