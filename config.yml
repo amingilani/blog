@@ -16,8 +16,8 @@ minify:
 
 params:
     env: production # to enable google analytics, opengraph, twitter-cards and schema.
-    title: ExampleSite
-    description: "ExampleSite description"
+    title: Amin Gilani's Blog
+    description: "Amin Gilani's Blog"
     keywords: [Blog, Portfolio, PaperMod]
     author: Me
     # author: ["Me", "You"] # multiple authors
@@ -56,7 +56,7 @@ params:
     # profile-mode
     profileMode:
         enabled: false # needs to be explicitly set
-        title: ExampleSite
+        title: Amin Gilani's Blog
         subtitle: "This is subtitle"
         imageUrl: "https://www.gravatar.com/avatar/e97345f1125996ea6e1a8394fd45da28?s=500"
         imageWidth: 120

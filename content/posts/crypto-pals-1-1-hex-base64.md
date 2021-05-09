@@ -1,5 +1,5 @@
 ---
-title: "Cryptopals 1 of 1: Hex to Base64"
+title: "Cryptopals 1 of Set 1: Hex to Base64"
 date: 2021-05-09T02:08:44-04:00
 draft: false
 tags: ["cryptopals", "crypto"]
@@ -28,7 +28,7 @@ editPost:
     appendFilePath: true # to append file path to Edit link
 ---
 
-Initially I went in a completely different direction by converting to a decimal and then mapping to a base64 number, but I learned more about [Base64](https://tools.ietf.org/html/rfc3548.html)'s input scheme while solving this. Eventually I figured out the solution, it wasn't mathematical, it required learning about Base64.
+Initially, I went in a completely different direction by converting to a decimal and then mapping to a base64 number, but I learned more about [Base64](https://tools.ietf.org/html/rfc3548.html)'s input scheme while solving this. Eventually I figured out the solution, it wasn't mathematical, it required learning about Base64.
 
 ## The Problem
 
