@@ -1,4 +1,4 @@
-baseURL: "https://gilani.me/blog"
+baseURL: "https://blog.gilani.me/"
 title: Amin Gilani's Blog
 paginate: 5
 theme: PaperMod
