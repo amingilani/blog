@@ -58,7 +58,7 @@ params:
         enabled: false # needs to be explicitly set
         title: ExampleSite
         subtitle: "This is subtitle"
-        imageUrl: "<img location>"
+        imageUrl: "https://www.gravatar.com/avatar/e97345f1125996ea6e1a8394fd45da28?s=500"
         imageWidth: 120
         imageHeight: 120
         imageTitle: my image
