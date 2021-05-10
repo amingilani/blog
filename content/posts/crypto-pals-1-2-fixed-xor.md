@@ -43,7 +43,7 @@ XOR the first two numbers to produce the third:
 
 ## The Solution
 
-I used Python, which can execute [Bitwise XOR](https://en.wikipedia.org/wiki/Bitwise_operation#XOR) on any integer value. To leverage this ability, I converted the hexadecimal numbers to integers and XOR-ed them. I then converted the result back to a hexadecimal number again.
+I used Python, which—like many programming languages—can execute a [Bitwise XOR](https://en.wikipedia.org/wiki/Bitwise_operation#XOR) on any integer value. To leverage this ability, I converted the hexadecimal numbers to integers and XOR-ed them. I then converted the result back to a hexadecimal number again.
 
 
 ## The Code
