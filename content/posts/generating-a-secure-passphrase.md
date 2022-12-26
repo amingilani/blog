@@ -44,8 +44,7 @@ comic](https://xkcd.com/936/) about this.
 Human unreliability in creating and memorizing secure passwords is acknowledged
 by NIST[^1]. The passwords we produce are trivially insecure and often
 incorporate personal information easily accessible to an adversary. However, it
-is possible to create phrases that are sufficiently secure to be used as
-passwords, and 
+is possible to create memorable and secure passwords.
 
 In this first part of a two-part guide, I'll walk you through my personal
 favorite password creation mechanism using a technique called diceware. The
