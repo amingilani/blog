@@ -47,15 +47,15 @@ incorporate personal information easily accessible to an adversary. However, it
 is possible to create memorable and secure passwords.
 
 In this first part of a two-part guide, I'll walk you through my personal
-favorite password creation mechanism using a technique called diceware. The
-passphrase you will create will be easier to memorize and more secure than this
+favorite password creation mechanism using a technique called diceware. You
+will create a password that is easier to memorize and more secure than this
 one: `SV8uFHnWU7eoe23uRc9Nq4oQrw`.
 
-In the second part, I'll explain why these passwords are probably significantly
-more secure than your existing password, explain how attackers try to
-compromise your passwords, and why a strong password keeps you safe. Hopefully
-this will keep you secure online, and if you like it, feel free to share this
-with people important to you.
+In the second part, I'll explain why these passwords mathematically more secure
+than your existing password, explain how attackers try to compromise your
+passwords, and why a strong password keeps you safe. Hopefully this will keep
+you secure online, and if you like it, feel free to share this with people
+important to you.
 
 
 ## Creating A Secure Password
@@ -63,7 +63,7 @@ with people important to you.
 To create a truly randomly generated password, we need three things:
 
 1. An incredibly random number
-1. A way to express that randomness as a password
+1. A way to express that number as a password
 1. A process to commit that password to memory
 
 ![A cartoon kitten playing with 5 dice](/images/generating-a-secure-passphrase/kitten-playing-dice.png)
@@ -104,18 +104,18 @@ next to the number.
 
 Continuing my example, here are my words:
 
-> 1. 45132 — pouring
-> 1. 22335 — deceptive
-> 1. 53645 — shame
-> 1. 14214 — broadly
-> 1. 63663 — unglue
-> 1. 44212 — pelt
-> 1. 63642 — unfixable
-> 1. 33345 — handling
-> 1. 33242 — habitat
-> 1. 43625 — passably
-> 1. 65255 — upswing
-> 1. 44221 — pendant
+> 1. 45132 -- pouring
+> 1. 22335 -- deceptive
+> 1. 53645 -- shame
+> 1. 14214 -- broadly
+> 1. 63663 -- unglue
+> 1. 44212 -- pelt
+> 1. 63642 -- unfixable
+> 1. 33345 -- handling
+> 1. 33242 -- habitat
+> 1. 43625 -- passably
+> 1. 65255 -- upswing
+> 1. 44221 -- pendant
 
 Congratulations, you now have a randomly generated password that was done
 completely without the aid of a computer. At this point, you're likely
@@ -134,8 +134,8 @@ Here's how mine would look:
 > unglue pelt unfixable handling
 > habitat passably upswing pendant
 
-Set this as the primary password for whatever you're using it for—like a
-password manager—and, most importantly, configure it so it should **prompt you
+Set this as the primary password for whatever you're using it for--like a
+password manager--and, most importantly, configure it so it should **prompt you
 for your password every time you need to use it**. This ensures you write this
 phrase multiple times.
 
@@ -148,20 +148,22 @@ exists in your head.
 ## Conclusion
 
 You've just learned how to create and memorize a very strong password. It is a
-bit long, and since it's more than a word, you can call it a passphrase.
-However, it is easier to memorize than 
+bit long, and since it's more than a word, you can call it a passphrase. If you
+use this password with only a single service (like a password manager), you can
+continue using this password indefinitely--until you suspect it has been
+compromised.
 
 Some facts about your passphrase:
 
 * With a word list of 7776 words, and 12 words, your password is 1 in
   48,873,677,980,689,257,489,322,752,273,774,603,865,660,850,176. That is over
-  155 bits of entropy (we'll cover this in the next part).
+  155 bits of entropy (we'll cover what that means in the next part).
 * It is at least 3 times more secure than this password with just 152 bits of
   entropy: `SV8uFHnWU7eoe23uRc9Nq4oQrw`.
 * As of 2022, if the largest cracking network on the planet[^2] tried to attack
   your password:
   * It will take 2.1 E26 E38 years to do it.
-  * Since the universe is only 13.7 E9 years old. It would take 15.6
+  * Since the universe is only (lol) 13.7 E9 years old. It would take 15.6
     quadrillion times longer than the age of the universe to crack your
     password.
 
@@ -176,8 +178,8 @@ them impotent.
 
 
 [^1]: NIST is the US National Institute of Standards and Technology. Its
-    [Publication SP 800-63B — Authentication and Lifecycle
-    Management](https://doi.org/10.6028/NIST.SP.800-63-3) of its Digital
+    [Publication SP 800-63B -- Authentication and Lifecycle
+    Management](https://doi.org/10.6028/NIST.SP.800-63-3) from its Digital
     Identity Guidelines are technical requirements for federal agencies
     implementing digital identity services. SP 800-63B § Appendix A notes:
     "Humans [...] have only a limited ability to memorize complex, arbitrary
@@ -190,7 +192,7 @@ them impotent.
     rules is not nearly as significant as initially thought, although the
     impact on usability and memorability is severe."
 [^2]: "largest cracking network" is one way to describe the bitcoin mining
-    network. It's a distributed system trying to guess the password that
+    network. It's a distributed system rewarded to guess a key that
     unlocks the next bitcoin block. The peak hash rate as of writing this
     article was ~325.11 EH/s in October 2022 according to
     [Bitcoin.com](https://news.bitcoin.com/3-bitcoin-mining-records-set-in-october-btc-hash-price-taps-lifetime-low-while-hashrate-and-difficulty-surged/).
