@@ -63,9 +63,9 @@ with people important to you.
 
 To create a truly randomly generated password, we need three things:
 
-* Randomness
-* A way to express that randomness as a sentence
-* A process to commit the word to memory
+1. An incredibly random number
+1. A way to express that randomness as a password
+1. A process to commit that password to memory
 
 ![A cartoon kitten playing with 5 dice](/images/generating-a-secure-passphrase/kitten-playing-dice.png)
 
