@@ -123,7 +123,7 @@ The time constant of an RC (resistor-capacitor) or RL (resistor-inductor) circui
 
 For an RC circuit, the time constant ($\tau$) is calculated as:
 
-$$\tau = RC$$
+$$\tau = R \times C$$
 
 For an RL circuit, the time constant is given by:
 
