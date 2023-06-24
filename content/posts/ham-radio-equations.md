@@ -5,7 +5,7 @@ draft: false
 tags: ["Amateur radio", "Study guide", "Equations", "Exam preparation"]
 author: "Amin Shah Gilani"
 showToc: true
-TocOpen: false
+TocOpen: true
 hidemeta: false
 comments: false
 description: "A compendium of key equations and formulas for amateur radio operators, compiled as a study aid for the upcoming ham radio exam."
@@ -180,3 +180,42 @@ $$Q = \frac{f}{\Delta f}$$
 where:
 - $f$ is the resonant frequency,
 - $\Delta f$ is the bandwidth at which the power drops to half its peak value.
+
+
+## 8. Total Resistance
+
+Resistance calculation in a circuit can be done differently based on whether the resistors are arranged in series or in parallel.
+
+### 1. Resistors in Series
+
+When resistors are connected in series, the total resistance ($R_{total}$) is the sum of the resistances of each component. This can be represented as:
+
+$$R_{total} = R_1 + R_2 + R_3 + \ldots + R_n$$
+
+Where $R_1, R_2, R_3, \ldots, R_n$ represent the resistances of each component.
+
+### 2. Resistors in Parallel
+
+For resistors connected in parallel, the reciprocal of the total resistance is equal to the sum of the reciprocals of each resistance. This is represented as:
+
+$$\frac{1}{R_{total}} = \frac{1}{R_1} + \frac{1}{R_2} + \frac{1}{R_3} + \ldots + \frac{1}{R_n}$$
+
+To find the total resistance, calculate the reciprocal of the right-hand side and then take the reciprocal of the result.
+
+## 9. Total Capacitance
+
+For capacitors, the rules are inverted compared to resistors. 
+
+### 1. Capacitors in Series
+
+For capacitors in series, the reciprocal of the total capacitance ($C_{total}$) is equal to the sum of the reciprocals of each capacitance:
+
+$$\frac{1}{C_{total}} = \frac{1}{C_1} + \frac{1}{C_2} + \frac{1}{C_3} + \ldots + \frac{1}{C_n}$$
+
+### 2. Capacitors in Parallel
+
+When capacitors are connected in parallel, the total capacitance is the sum of the capacitances of each component:
+
+$$C_{total} = C_1 + C_2 + C_3 + \ldots + C_n$$
+
+Where $C_1, C_2, C_3, \ldots, C_n$ represent the capacitances of each component.
