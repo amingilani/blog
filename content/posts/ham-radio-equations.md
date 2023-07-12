@@ -56,7 +56,7 @@ where:
 
 Power in an electrical circuit can be calculated using the following formula:
 
-$$P = I \times E = I^2 \times R = \frac{E^2}{R$$
+$$P = E \times I = I^2 \times R = \frac{E^2}{R}$$
 
 where:
 - $P$ is the power expressed in watts,
