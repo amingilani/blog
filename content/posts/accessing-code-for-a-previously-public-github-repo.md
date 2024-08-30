@@ -25,7 +25,9 @@ editPost:
 
 Recently, one of Wave's previously public and open-source GitHub repositories, which powered a popular Terraform module[^1], was either deleted or made private[^2]. As an employee of Wave and, more importantly, a publicly listed member of their GitHub organization (@waveaccounting), I’ve been receiving a lot of questions about this.
 
-While I can’t comment on why or whether the repository was either deleted or made private, I can show you how to access the last public version of the code using only publicly available information. This article is intended to help the broader open-source community while ensuring that I stay true to any confidentiality agreements I may have signed. Importantly, no confidential information is shared here—everything discussed is publicly documented and accessible to anyone.
+While I can’t comment on why or whether the repository was either deleted or made private, I can show you how to access the last public version of the code using only publicly available information. This article is intended to help the broader open-source community while ensuring that I stay true to any confidentiality agreements I may have signed.
+
+Importantly, no confidential information is shared here—everything discussed is publicly documented and accessible to anyone.
 
 ## Understanding the Technique: Accessing Data from Private or Deleted Repositories
 
